@@ -1,7 +1,5 @@
 # PreEntrega1_Mu-ozChavezReact
 
-![My Image](src\assets\Image.jpg)
-
 This is a README file for a project developed using React.js, JavaScript, Tailwind, and Vite.
 
 ## Technologies Used
@@ -19,7 +17,7 @@ About Vite
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)&nbsp;
 
 ## Visual instance
-![My Image](src\assets\Image.jpg)
+![Alt Text](src\assets\Image.jpg)
 
 ## Getting Started
 To get started with this project, follow these steps:
