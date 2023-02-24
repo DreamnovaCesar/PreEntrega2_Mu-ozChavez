@@ -17,7 +17,7 @@ About Vite
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)&nbsp;
 
 ## Visual instance
-![Alt Text](src\assets\Image.jpg)
+![Alt Text](Image.jpg)
 
 ## Getting Started
 To get started with this project, follow these steps:
