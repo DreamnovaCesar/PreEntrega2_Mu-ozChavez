@@ -1,22 +1,30 @@
 import { useState } from 'react'
 import { BsFillCartCheckFill } from 'react-icons/bs';
 import ItemListContainer from './Components/ItemListContainer';
-import ClickTracker from './Components/ClickTracker';
-import ProductList from './Components/Productlist';
-import ProductListGPT from './Components/ProductlistGPT';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/Ropa';
+import Contact from './pages/Contact';
+import DescriptionProduct from './pages/DescriptionProduct';
+import { CartProvider } from './hooks/ProductContext';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
-    <div>
-      <div>
-        <ItemListContainer></ItemListContainer>
-        <ClickTracker></ClickTracker>
-        <ProductListGPT></ProductListGPT>
-      </div>
-    </div>
-  )
+
+    <>
+        < CartProvider>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/DescriptionProduct/:id" element={<DescriptionProduct />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
+          </Routes>
+        </CartProvider>
+   
+    </>
+
+  );
 }
 
 export default App

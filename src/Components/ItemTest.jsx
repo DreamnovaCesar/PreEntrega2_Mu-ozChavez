@@ -1,6 +1,7 @@
 // ItemListContainer.js
 import React, { useState } from 'react';
 import Navbar from './Navbar';
+import ItemProduct from './ItemProduct';
 
 const ItemListContainer = () => {
   const [items, setItems] = useState(['1', '2', '3', '4']);
