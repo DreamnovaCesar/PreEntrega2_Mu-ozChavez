@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-let ItemProduct = ({category, id}) => {
+let ItemProduct = ({id}) => {
 
   let [title, setTitle] = useState('')
   let [description, setDescription] = useState('')
